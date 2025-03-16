@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 
-//В данном случае трейт содержит методы для фильтрации данных в админке.
+//В данном случае трейт содержит методы для фильтрации данных в админке. 
 trait AdminFilterHelperTrait
 {
     private function addWhereBetweenFilterToQuery(&$query, $request, $validated, $name, $from, $to): void
